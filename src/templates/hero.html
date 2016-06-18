@@ -1,0 +1,17 @@
+<div style="height: 100%; position: relative; text-align: center; font-family: Arial; border: 1px solid black;">
+  <div style="padding: 3mm; font-size: 14pt;"><b>{{ name }}</b></div>
+  <div style="border-top: 1px solid black; border-bottom: 1px solid black; background-color: {{ color }}; padding: 1.5mm; font-size: 9pt;"><i>{{ keywords }}</i></div>
+  <div style="font-size: 8pt; margin-top: 4mm; margin-left: 4mm; margin-right: 4mm;">{{ proficiency }}</div>
+  <div style="position: absolute; left: 1mm; top: 13mm;">{{ left_hand }}</div>
+  <div style="position: absolute; right: 1mm; top: 13mm;">{{ right_hand }}</div>
+  <div style="position: absolute; width: 100%; top: 34mm;">
+    <div style="border-top: 1px solid black; border-bottom: 1px solid black; background-color: {{ color }}; padding: 1.5mm; margin-bottom: 4mm; font-size: 9pt;">Abilities</div>
+    <div style="position: absolute; left: 3mm; top: 3mm; font-size: 19pt; background-color: {{ color }}; border: 1px solid black;">&nbsp;<b>{{ health_amount }}</b></div>
+    <div style="position: absolute; right: 2mm; top: 3mm; font-size: 19pt; background-color: {{ color }}; border: 1px solid black;">&nbsp;<b>{{ stamina_amount }}</b></div>
+    <div style="margin: 1mm;"><b>Flee</b></div>
+    <div style="border: 1px solid black; background-color: #eee; padding: 1.5mm; font-size: 9pt; width: 60%; margin: auto;">Cost: {{ flee_cost }}</div>
+    <div style="margin: 1mm; margin-top: 4mm;"><b>Sheathe Weapon</b></div>
+    <div style="border: 1px solid black; background-color: #eee; padding: 1.5mm; font-size: 9pt; width: 60%; margin: auto;">Cost: {{ sheathe_cost }}</div>
+  </div>
+  <div style="position: absolute; bottom: 2mm; width: 100%; font-size: 6pt; color: #9999a5;">{{ card_index }} / {{ cards_total }} ({{ version }})</div>
+</div>

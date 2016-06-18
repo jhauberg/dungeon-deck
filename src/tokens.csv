@@ -1,0 +1,3 @@
+@count,@template:token,image
+20,templates/token.html,{{ icon_life:large }}
+15,templates/token.html,{{ icon_stamina:large }}
